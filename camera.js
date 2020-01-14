@@ -1,3 +1,11 @@
+$("th").each(function() {
+    var hyphenated = $(this).text().replace(/\s/g,'-');
+    $(this).attr('id',hyphenated);
+  }
+);
+
+
+
 $("<div class='bongsubox'><a href='formetco.crm.dynamics.com/main.aspx?pagetype=entityrecord&etn=msdyn_customerasset&id=72345e19-e5cb-e711-80e1-000d3a021e8c'>161870.1</a></div>").insertAfter("#Young-Family-N-Red-Wolf-RHR");
 $("<div class='bongsubox'><a href='formetco.crm.dynamics.com/main.aspx?pagetype=entityrecord&etn=msdyn_customerasset&id=74345e19-e5cb-e711-80e1-000d3a021e8c'>161870.2</a></div>").insertAfter("#Young-Family-S-Red-Wolf-LHR");
 $("<div class='bongsubox'><a href='formetco.crm.dynamics.com/main.aspx?pagetype=entityrecord&etn=msdyn_customerasset&id=80355e19-e5cb-e711-80e1-000d3a021e8c'>164725.1</a></div>").insertAfter("#Young-Family-Westbound-RHR");
